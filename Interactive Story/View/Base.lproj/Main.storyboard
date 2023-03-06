@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -12,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Destini_iOS13" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Interactive_Story" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +51,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oqK-HP-Jd9"/>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eUC-Fi-NaX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fwF-55-PpX">
@@ -71,7 +70,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nSI-Tt-ZhB"/>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9MZ-Xl-nHm"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -87,9 +86,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="choice1Button" destination="9QG-pg-Frw" id="aKS-Il-M1J"/>
-                        <outlet property="choice2Button" destination="fwF-55-PpX" id="xI3-ZP-r5j"/>
-                        <outlet property="storyLabel" destination="rAa-Vz-35u" id="beF-Dg-X4J"/>
+                        <outlet property="choiceOneButton" destination="9QG-pg-Frw" id="8lE-RZ-7Am"/>
+                        <outlet property="choiceTwoButton" destination="fwF-55-PpX" id="aBd-tg-K6b"/>
+                        <outlet property="storyLabel" destination="rAa-Vz-35u" id="vhY-hI-pPb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
